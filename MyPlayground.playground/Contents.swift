@@ -6,3 +6,6 @@ let tipPercentageAsDouble = Double(tipPercentageString)
 let tipPercentage = 0.15
 let tip = amountOfBill * tipPercentage
 print(tip)
+
+
+var totalBill = 
