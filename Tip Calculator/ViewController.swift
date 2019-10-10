@@ -9,13 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    // MARK: Properties
+    
+    // MARK: INitializer
+    
+    // MARK: Methods(functions)
 
-    @IBOutlet weak var totalBill: UITextField!
-    
-    @IBOutlet weak var tipPercentage: UITextField!
-    
-    @IBOutlet weak var tip: UITextField!
-    
     
     
     
