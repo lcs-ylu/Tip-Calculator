@@ -14,17 +14,17 @@ class ViewController: UIViewController {
     // MARK: INitializer
     
     // MARK: Methods(functions)
+    
+    // Link the textbox
 
     @IBOutlet weak var totalBill: UITextField!
-
-    
-    
     @IBOutlet weak var tipPercentage: UITextField!
+    @IBOutlet weak var spitBetweenPeople: UITextField!
     
+    @IBOutlet weak var totalTip: UILabel!
+    @IBOutlet weak var tipPerPerson: UILabel!
     
-    
-    
-    @IBOutlet weak var tip: UITextField!
+
     
     var text: String?
    
@@ -35,17 +35,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    
     @IBAction func calculate(_ sender: Any) {
         
-        let bill = totalBill.text!
-        let Percentage = tipPercentage.text!
-        var tip = bill * Percentage
-        print(tip)
-        
-        
+       
     }
     
-
 
 }
 
