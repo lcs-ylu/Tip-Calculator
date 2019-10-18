@@ -26,11 +26,6 @@ class ViewController: UIViewController {
     
 
     
-    var text: String?
-   
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -38,6 +33,11 @@ class ViewController: UIViewController {
     
     
     @IBAction func calculate(_ sender: Any) {
+        
+        // Get user input
+        let totalBillAsString = totalBill.text!
+        let tipPercentageAsString = tipPercentage.text!
+        let splitBetweenPeopleAsString = spitBetweenPeople.text!
         
        
     }
