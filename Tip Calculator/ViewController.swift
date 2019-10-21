@@ -35,9 +35,15 @@ class ViewController: UIViewController {
     @IBAction func calculate(_ sender: Any) {
         
         // Get user input
-        let totalBillAsString = totalBill.text!
-        let tipPercentageAsString = tipPercentage.text!
-        let splitBetweenPeopleAsString = spitBetweenPeople.text!
+        guard let totalBillAsString = totalBill.text else{
+            return
+        }
+        guard let tipPercentageAsString = tipPercentage.text else{
+            return
+        }
+        guard let splitBetweenPeopleAsString = spitBetweenPeople.text else{
+            return
+        }
         
         
        // Make the string input be Double data types
