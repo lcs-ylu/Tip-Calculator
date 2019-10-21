@@ -39,11 +39,17 @@ class ViewController: UIViewController {
         let tipPercentageAsString = tipPercentage.text!
         let splitBetweenPeopleAsString = spitBetweenPeople.text!
         
+       
+        
        // Make the string input be Double data types
         let totalBillAsDouble = Double(totalBillAsString)!
         let tipPercentageAsDouble = Double(tipPercentageAsString)! / 100
         let splitBetweenPeopleAsDouble = Double(splitBetweenPeopleAsString)!
+        
+        let totalTip = totalBillAsDouble * tipPercentageAsDouble
+        
     }
+    
     
 
 }
