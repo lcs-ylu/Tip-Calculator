@@ -47,6 +47,10 @@ class ViewController: UIViewController {
         let splitBetweenPeopleAsDouble = Double(splitBetweenPeopleAsString)!
         
         let totalTip = totalBillAsDouble * tipPercentageAsDouble
+        let tipPerPerson = totalTip / splitBetweenPeopleAsDouble
+        
+        
+        
         
     }
     
